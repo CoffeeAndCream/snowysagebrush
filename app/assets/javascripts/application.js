@@ -14,6 +14,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap-sprockets
-//= require d3
+//= require chartist
 //= require_tree .
-//= require graph
+//= require demo

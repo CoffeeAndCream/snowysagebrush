@@ -16,3 +16,13 @@
 
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+h1,h5 {
+  text-align:center;
+}
+.centered-col-text{
+  text-align: center;
+}
+.left-divider{
+  border-left: thick double #F5F5F5;
+}

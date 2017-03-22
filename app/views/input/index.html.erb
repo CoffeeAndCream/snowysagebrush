@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="col-lg-6 col-lg-offset-3">
+    <h1>Data You Pulled from Wikipedia</h1>
+    <%= @result %>
+    <%= bootstrap_form_for :form do |f| %>
+      <%= f.text_field :article %>
+      <%= f.submit 'Go!' %>
+    <% end %>
+    <hr>
+    <p>If your text says "missing"=>""}}}}" at the end, that means Wikipedia doens't have an article about your subject. Maybe try looking up 'Dumb Dumb'</p>
+</div>
